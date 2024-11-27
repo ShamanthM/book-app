@@ -1,0 +1,64 @@
+/* Center the modal in the screen */
+.customDialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+  }
+  
+  /* Modal container with animation */
+  .modalContainer {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Animation keyframes for fadeIn */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Increase text size for confirmation message */
+  .confirmationText {
+    font-size: 1.25rem; /* Adjust the font size to your preference */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Style for the title background */
+  .dialogTitle {
+    background-color: rgb(48, 163, 163); /* Customize the background color */
+    color: white; /* Customize the text color */
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the Delete button */
+  .deleteButton {
+    background-color: red; /* Customize the background color */
+    color: white; /* Customize the text color */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Hover style for the Delete button */
+  .deleteButton:hover {
+    background-color: darkred; /* Customize the hover background color */
+  }
+  

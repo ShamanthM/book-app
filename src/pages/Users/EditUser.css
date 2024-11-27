@@ -1,0 +1,57 @@
+/* Edit User Modal */
+.edit-user-modal {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Modal Title */
+  .edit-user-title {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  /* Modal Content */
+  .edit-user-content {
+    padding: 16px;
+  }
+  
+  /* Input Fields */
+  .edit-user-content input {
+    margin-bottom: 16px;
+  }
+  
+  /* Modal Actions */
+  .edit-user-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Cancel Button */
+  .edit-user-cancel {
+    margin-right: 8px;
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  /* Save Button */
+  .edit-user-save {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  /* Hover effect for buttons */
+  .edit-user-cancel:hover,
+  .edit-user-save:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 600px) {
+    .edit-user-modal {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
